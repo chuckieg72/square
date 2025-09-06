@@ -1,0 +1,147 @@
+index.html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Athena Payment Portal — Square</title>
+  <meta name="description" content="Secure payment via Square for Today's Marketing Solutions LLC." />
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💳</text></svg>">
+
+  <!-- Open Graph (nice preview if you share the link) -->
+  <meta property="og:title" content="Athena Payment Portal — Square" />
+  <meta property="og:description" content="Pay securely through Square." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #121a2b;
+      --text: #e8eefc;
+      --muted: #a8b3cf;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --ring: rgba(37, 99, 235, 0.4);
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: radial-gradient(1200px 800px at 70% -10%, #1a2440 0%, #0b1220 60%);
+      color: var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    }
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .card {
+      width: 100%;
+      max-width: 520px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));
+      border: 1px solid rgba(168,179,207,0.15);
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+      backdrop-filter: blur(6px);
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin: 0 0 8px;
+      letter-spacing: 0.2px;
+    }
+    p.sub {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 0.98rem;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #0f172a;
+      border: 1px solid rgba(168,179,207,0.18);
+      color: var(--muted);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+    .btn {
+      display: inline-block;
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 10px;
+      border: 0;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.05s ease, box-shadow 0.2s ease, background 0.2s ease;
+      box-shadow: 0 8px 24px var(--ring);
+    }
+    .btn:hover { background: var(--accent-hover); }
+    .btn:active { transform: translateY(1px); }
+    .hr {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(168,179,207,0.25), transparent);
+      margin: 22px 0;
+      border: 0;
+    }
+    .foot {
+      color: var(--muted);
+      font-size: 12.5px;
+      line-height: 1.45;
+    }
+    .foot a { color: var(--text); text-underline-offset: 3px; }
+    .logo {
+      display: inline-flex; align-items: center; gap: 10px; margin-bottom: 12px;
+    }
+    .logo .dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #6aa1ff, #1e40af);
+      box-shadow: 0 0 18px rgba(37,99,235,0.7);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card" role="region" aria-label="Square payment">
+      <div class="logo">
+        <span class="dot" aria-hidden="true"></span>
+        <strong>Athena Payment Portal</strong>
+      </div>
+
+      <div class="badge" aria-label="Secure">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.75l6 3v5.27c0 5.07-3.38 9.67-8 10.98-4.62-1.31-8-5.91-8-10.98V4.75l6-3 4 .01zM7 10h2v5H7v-5zm4 0h2v5h-2v-5zm4 0h2v5h-2v-5z"/></svg>
+        Secure checkout via Square
+      </div>
+
+      <h1>Complete Your Payment</h1>
+      <p class="sub">Click the button below to pay securely through Square. When finished, you’ll return to this page.</p>
+
+      <!-- ✅ Your Square link goes here -->
+      <a class="btn" href="https://square.link/u/pkZSuTqf" target="_blank" rel="noopener">Pay with Square</a>
+
+      <div class="hr"></div>
+
+      <p class="foot">
+        By continuing, you agree to our standard terms. For support, contact
+        <a href="mailto:todaysmarketingsollutions1@gmail.com">Today’s Marketing Solutions LLC</a>.
+      </p>
+    </section>
+  </main>
+
+  <!-- Optional lightweight page view ping (no trackers; GitHub Pages safe) -->
+  <script>
+    // Simple in-page "ping" log (does not send data anywhere):
+    console.info("Athena Portal loaded:", new Date().toISOString());
+  </script>
+</body>
+</html>

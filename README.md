@@ -1,12 +1,12 @@
 
-# Athena Payment Portal – Square
+# Athena Payment Portal 
 
 A secure payment portal built for **Today’s Marketing Solutions LLC**, allowing customers to quickly and safely pay using Square.
 
 ---
 
 ## 🚀 Live Payment Portal
-👉 [Pay with Square](https://chuckieg72.github.io/square/)
+👉 [Pay with Square](https://todaysmarketingsolutionsllc.org
 
 ---
 
@@ -26,7 +26,7 @@ A secure payment portal built for **Today’s Marketing Solutions LLC**, allowin
 
 ## 📩 Support
 If you have questions or run into issues with payments, please email:  
-📧 **todaysmarketingsollutions1@gmail.com**
+📧 **payments@todaysmarketingsolutios.org**
 
 ---
 
